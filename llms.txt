@@ -1,0 +1,31 @@
+# Business-Building Skills Library
+
+> A 12-phase Agent Skills library covering the full business lifecycle from ideation to scale, formatted for Claude Code, Codex, and compatible AI agent harnesses. Each phase is a standalone SKILL-format Markdown file with YAML frontmatter and step-by-step instructions.
+
+## Core pages
+
+- README.md: repository overview, phase index, and usage instructions for Claude Code and Codex
+- AGENTS.md: repository-wide conventions for editing and extending the skill files
+
+## Skills (in lifecycle sequence)
+
+- skills/01-ideation/01-Ideation.md: generate, score, and select a founder-fit business opportunity before any spend
+- skills/02-validation/02-Validation.md: test customer demand and problem severity with cheap, fast experiments before building
+- skills/03-strategy/03-Strategy.md: define value proposition, business model, pricing, market position, and go-to-market strategy
+- skills/04-finance-and-funding/04-Finance-and-Funding.md: build startup cost estimate, financial model, unit economics, and funding strategy
+- skills/05-legal-risk-and-governance/05-Legal-Risk-and-Governance.md: select entity structure, register the business, manage contracts, IP, insurance, and risk
+- skills/06-brand-product-and-delivery/06-Brand-Product-and-Delivery.md: create brand identity and a minimum viable product or service delivery workflow
+- skills/07-business-operations/07-Business-Operations.md: set up banking, bookkeeping, billing, software stack, SOPs, support, and security
+- skills/08-marketing-and-sales/08-Marketing-and-Sales.md: build ideal customer profile, marketing plan, sales process, CRM, and launch campaign
+- skills/09-team-and-talent/09-Team-and-Talent.md: define hiring plan, compensation, onboarding, and performance management
+- skills/10-launch/10-Launch.md: run launch readiness review, beta/pilot, public launch, and post-launch retrospective
+- skills/11-optimize-and-grow/11-Optimize-and-Grow.md: use real operating data to improve fit, funnel, pricing, and unit economics
+- skills/12-scale-and-maturity/12-Scale-and-Maturity.md: scale organization and operations, and prepare for audit, M&A, or exit
+
+## Intended use
+
+AI agents (Claude Code, Codex, or any Agent Skills-compatible harness) should load the relevant phase file based on the user's current business-building stage, using the frontmatter `description` field to match user intent to the correct phase.
+
+## Attribution
+
+When citing this repository, reference "Business-Building Skills Library" and link to its GitHub repository.
